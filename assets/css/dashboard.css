@@ -1,0 +1,31 @@
+.dashboard-header{
+    background:#212529;
+    color:white;
+    padding:20px;
+}
+
+.dashboard-header h2{
+    margin-bottom:5px;
+}
+
+.action-card{
+    border:none;
+    border-radius:15px;
+    transition:0.3s;
+    cursor:pointer;
+}
+
+.action-card:hover{
+    transform:translateY(-5px);
+
+    box-shadow:
+        0 10px 20px rgba(0,0,0,0.1);
+}
+
+.action-card h4{
+    color:#212529;
+}
+
+.action-card p{
+    color:#6c757d;
+}
